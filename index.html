@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
 
 <nav class="bg-[#FFC527] fixed w-screen z-20 top-0 start-0 border-b border-default">
   <div class="w-screen flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse ">
+    <a href="#home" class="flex items-center space-x-3 rtl:space-x-reverse ">
         <img src="https://media.istockphoto.com/id/2022470454/vector/crossed-fork-and-knife-icon.jpg?s=612x612&w=0&k=20&c=wR6EIHFM8ARLkdjOsKjzBXri7vYJBlEA8fSW9L21ov0=" class="h-7 rounded-[100%] bg-[#FFC527]" alt="Flowbite Logo" />
         <span class="michroma-regular self-center text-xl text-heading font-semibold whitespace-nowrap color-[#28282A]">Il locale</span>
     </a>
@@ -26,26 +26,23 @@
     <div class="hidden w-full md:block md:w-auto sm:pr-12" id="navbar-default">
       <ul class="michroma-regular font-medium flex flex-col p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-neutral-primary">
         <li>
-          <a href="#" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
+          <a href="#home" class="block py-2 px-3 text-heading rounded  md:border-0 hover:text-white" aria-current="page">Home</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">About</a>
+          <a href="#gallery" class="block py-2 px-3 text-heading rounded  md:border-0 hover:text-white">Galleria</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Galleria</a>
+          <a href="#menu" class="block py-2 px-3 text-heading rounded  md:border-0 hover:text-white">Menù</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Menù</a>
-        </li>
-        <li>
-          <a href="#" class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contatti</a>
+          <a href="#contacts" class="block py-2 px-3 text-heading rounded  md:border-0 hover:text-white">Contatti</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<section class="w-full flex flex-col sm:flex-row sm:items-end items-center justify-center gap-8 h-screen bg-[#28282A]">
+<section id="home" class="w-full flex flex-col sm:flex-row sm:items-end items-center justify-center gap-8 h-screen bg-[#28282A]">
     
     <div class="flex items-center sm:items-end sm:justify-end justify-center w-full sm:max-w-[300px] sm:max-h-[280px] h-full text-right flex flex-col gap-2 sm:items-end sm:bg-none bg-[url('https://images.unsplash.com/photo-1559329007-40df8a9345d8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
         <h1 class="michroma-regular pr-4 sm:self-end   text-justify  sm:text-right max-w-2xl text-4xl font-extrabold md:text-5xl xl:text-6xl text-[#FFC527]">Il locale</h1>
@@ -69,162 +66,162 @@
 <div id="gallery" class="grid grid-cols-2 md:grid-cols-4 gap-4 p-10 bg-[#28282A]">
     <div class="grid gap-4">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img0.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img0.jpg" alt="">
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img1.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img1.jpg" alt="">
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img2.jpg" alt="">
-        </div>
-    </div>
-    <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img3.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img4.jpg" alt="">
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img5.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img2.jpg" alt="">
         </div>
     </div>
     <div class="grid gap-4">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img6.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img3.jpg" alt="">
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img7.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img4.jpg" alt="">
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img8.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img10.jpg" alt="">
         </div>
     </div>
     <div class="grid gap-4">
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img9.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img6.jpg" alt="">
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img10.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img7.jpg" alt="">
         </div>
         <div>
-            <img class="h-auto max-w-full rounded-lg" src="./img/gallery-img11.jpg" alt="">
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img8.jpg" alt="">
+        </div>
+    </div>
+    <div class="grid gap-4">
+        <div>
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img9.jpg" alt="">
+        </div>
+        <div>
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img5.jpg" alt="">
+        </div>
+        <div>
+            <img class="hover:scale-125 transition-transform duration-300 ease-in-out h-auto max-w-full rounded-lg" src="./img/gallery-img11.jpg" alt="">
         </div>
     </div>
 </div>
-<div class="w-screen bg-[#28282A] flex items-center justify-center pt-4 border-t border-t-[#FFC527]"><h1 class="text-[#FFC527] text-6xl michroma-regular uppercase">Il Menù</h1></div>
-<div id="menu" class="bg-[#28282A] michroma-regular menu min-h-screen w-full place-items-center gap-4 pt-10 pb-10 flex-col flex sm:flex-wrap lg:h-[300vh] text-white">
+<div id="menu" class="w-screen bg-[#28282A] flex items-center justify-center border-t border-t-[#FFC527]"><h1 class="text-[#FFC527] pt-[60px] text-6xl michroma-regular uppercase">Il Menù</h1></div>
+<div id="" class="bg-[#28282A] michroma-regular menu min-h-screen w-full place-items-center gap-4 pt-10 pb-10 flex-col flex sm:flex-wrap lg:h-[300vh] text-white">
     
     <h2 class="text-4xl pt-8 pb-4 text-[#FFC527]">Pizze Rosse</h2>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Margherita</h2>
-            <p class="text-[#FFC527]">7€</p>
+            <p class="text-[#FFC527]">7</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, basilico)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Marinara</h2>
-            <p class="text-[#FFC527]">6€</p>
+            <p class="text-[#FFC527]">6</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, aglio, origano)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Diavola</h2>
-            <p class="text-[#FFC527]">9€</p>
+            <p class="text-[#FFC527]">9</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, salame piccante)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Napoli</h2>
-            <p class="text-[#FFC527]">8.5€</p>
+            <p class="text-[#FFC527]">8.5</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, acciughe, capperi)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Capricciosa</h2>
-            <p class="text-[#FFC527]">10€</p>
+            <p class="text-[#FFC527]">10</p>
         </div>
         <p class="titolo-decrizione">(Prosciutto, funghi, carciofi, olive)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Tonno e Cipolla</h2>
-            <p class="text-[#FFC527]">9.5€</p>
+            <p class="text-[#FFC527]">9.5</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, tonno, cipolla rossa)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">4 Stagioni</h2>
-            <p class="text-[#FFC527]">10€</p>
+            <p class="text-[#FFC527]">10</p>
         </div>
         <p class="titolo-decrizione">(Divisa in 4: funghi, carciofi, prosciutto, olive)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Calzone Rosso</h2>
-            <p class="text-[#FFC527]">9.5€</p>
+            <p class="text-[#FFC527]">9.5</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, prosciutto cotto)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Bufalina</h2>
-            <p class="text-[#FFC527]">11€</p>
+            <p class="text-[#FFC527]">11</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella di bufala DOP, basilico)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Siciliana</h2>
-            <p class="text-[#FFC527]">9€</p>
+            <p class="text-[#FFC527]">9</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, olive nere, capperi, acciughe, aglio)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">N'duja</h2>
-            <p class="text-[#FFC527]">10.5€</p>
+            <p class="text-[#FFC527]">10.5</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, n'duja calabrese, cipolla)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Saporita</h2>
-            <p class="text-[#FFC527]">11.5€</p>
+            <p class="text-[#FFC527]">11.5</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, bufala, pomodori secchi, olive)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Amatriciana</h2>
-            <p class="text-[#FFC527]">10€</p>
+            <p class="text-[#FFC527]">10</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, guanciale, pecorino)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Parmigiana</h2>
-            <p class="text-[#FFC527]">9.5€</p>
+            <p class="text-[#FFC527]">9.5</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, melanzane, parmigiano)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Crudo e Rucola</h2>
-            <p class="text-[#FFC527]">11€</p>
+            <p class="text-[#FFC527]">11</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, crudo, rucola, grana)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Viennese</h2>
-            <p class="text-[#FFC527]">8.5€</p>
+            <p class="text-[#FFC527]">8.5</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, mozzarella, wurstel di qualità)</p>
     </div>
@@ -233,112 +230,112 @@
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Quattro Formaggi</h2>
-            <p class="text-[#FFC527]">10€</p>
+            <p class="text-[#FFC527]">10</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, gorgonzola, fontina, parmigiano)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Salsiccia e Friarielli</h2>
-            <p class="text-[#FFC527]">11€</p>
+            <p class="text-[#FFC527]">11</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, salsiccia, friarielli)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Boscaiola</h2>
-            <p class="text-[#FFC527]">9.5€</p>
+            <p class="text-[#FFC527]">9.5</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, funghi, salsiccia)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Tartufata</h2>
-            <p class="text-[#FFC527]">12€</p>
+            <p class="text-[#FFC527]">12</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, crema di tartufo, funghi)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Vegetariana</h2>
-            <p class="text-[#FFC527]">9€</p>
+            <p class="text-[#FFC527]">9</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, zucchine, melanzane, peperoni)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Pistacchiosa</h2>
-            <p class="text-[#FFC527]">13€</p>
+            <p class="text-[#FFC527]">13</p>
         </div>
         <p class="titolo-decrizione">(Mortadella, granella di pistacchio, burrata)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Zola e Noci</h2>
-            <p class="text-[#FFC527]">10.5€</p>
+            <p class="text-[#FFC527]">10.5</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, gorgonzola, noci, miele)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Carbonara Bianca</h2>
-            <p class="text-[#FFC527]">11€</p>
+            <p class="text-[#FFC527]">11</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, guanciale, uovo, pecorino)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Patate e Rosmarino</h2>
-            <p class="text-[#FFC527]">9€</p>
+            <p class="text-[#FFC527]">9</p>
         </div>
         <p class="titolo-decrizione">(Patate al forno, mozzarella, rosmarino)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Delicata</h2>
-            <p class="text-[#FFC527]">12.5€</p>
+            <p class="text-[#FFC527]">12.5</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, fiori di zucca, alici, burrata)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Cacio e Pepe</h2>
-            <p class="text-[#FFC527]">10€</p>
+            <p class="text-[#FFC527]">10</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, pecorino romano, pepe nero)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Genovese</h2>
-            <p class="text-[#FFC527]">11.5€</p>
+            <p class="text-[#FFC527]">11.5</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, pesto, pinoli, pomodorini)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Norcina</h2>
-            <p class="text-[#FFC527]">12€</p>
+            <p class="text-[#FFC527]">12</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, tartufo, salsiccia, panna)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Speck e Brie</h2>
-            <p class="text-[#FFC527]">10.5€</p>
+            <p class="text-[#FFC527]">10.5</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, brie, speck dell'Alto Adige)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Gamberetti</h2>
-            <p class="text-[#FFC527]">13€</p>
+            <p class="text-[#FFC527]">13</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, gamberetti, zucchine, scorza limone)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Radicchio</h2>
-            <p class="text-[#FFC527]">10€</p>
+            <p class="text-[#FFC527]">10</p>
         </div>
         <p class="titolo-decrizione">(Mozzarella, radicchio, scamorza affumicata)</p>
     </div>
@@ -347,112 +344,112 @@
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Carbonara</h2>
-            <p class="text-[#FFC527]">12€</p>
+            <p class="text-[#FFC527]">12</p>
         </div>
         <p class="titolo-decrizione">(Guanciale, uovo, pecorino, pepe)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Amatriciana</h2>
-            <p class="text-[#FFC527]">11€</p>
+            <p class="text-[#FFC527]">11</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, guanciale, pecorino)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Cacio e Pepe</h2>
-            <p class="text-[#FFC527]">10€</p>
+            <p class="text-[#FFC527]">10</p>
         </div>
         <p class="titolo-decrizione">(Pecorino romano, pepe nero macinato)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Gricia</h2>
-            <p class="text-[#FFC527]">11€</p>
+            <p class="text-[#FFC527]">11</p>
         </div>
         <p class="titolo-decrizione">(Guanciale, pecorino, senza pomodoro)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Lasagna Classica</h2>
-            <p class="text-[#FFC527]">13€</p>
+            <p class="text-[#FFC527]">13</p>
         </div>
         <p class="titolo-decrizione">(Ragù di carne, besciamella, parmigiano)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Pesto di Pra'</h2>
-            <p class="text-[#FFC527]">10.5€</p>
+            <p class="text-[#FFC527]">10.5</p>
         </div>
         <p class="titolo-decrizione">(Basilico fresco, pinoli, parmigiano)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Norma</h2>
-            <p class="text-[#FFC527]">11€</p>
+            <p class="text-[#FFC527]">11</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, melanzane fritte, ricotta salata)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Scoglio</h2>
-            <p class="text-[#FFC527]">16€</p>
+            <p class="text-[#FFC527]">16</p>
         </div>
         <p class="titolo-decrizione">(Cozze, vongole, calamari, gamberi)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Puttanesca</h2>
-            <p class="text-[#FFC527]">10€</p>
+            <p class="text-[#FFC527]">10</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, capperi, olive, acciughe, peperoncino)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Trofie Mare e Monti</h2>
-            <p class="text-[#FFC527]">14€</p>
+            <p class="text-[#FFC527]">14</p>
         </div>
         <p class="titolo-decrizione">(Gamberi, funghi porcini, pomodorino)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Arrabbiata</h2>
-            <p class="text-[#FFC527]">9€</p>
+            <p class="text-[#FFC527]">9</p>
         </div>
         <p class="titolo-decrizione">(Pomodoro, aglio, abbondante peperoncino)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Gnocchi alla Sorrentina</h2>
-            <p class="text-[#FFC527]">11.5€</p>
+            <p class="text-[#FFC527]">11.5</p>
         </div>
         <p class="titolo-decrizione">(Gnocchi di patate, pomodoro, mozzarella, basilico)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Tagliatelle ai Porcini</h2>
-            <p class="text-[#FFC527]">14.5€</p>
+            <p class="text-[#FFC527]">14.5</p>
         </div>
         <p class="titolo-decrizione">(Pasta all'uovo, funghi porcini freschi, prezzemolo)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Ravioli Burro e Salvia</h2>
-            <p class="text-[#FFC527]">12€</p>
+            <p class="text-[#FFC527]">12</p>
         </div>
         <p class="titolo-decrizione">(Ravioli ricotta e spinaci, burro fuso, salvia)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Bolognese</h2>
-            <p class="text-[#FFC527]">12€</p>
+            <p class="text-[#FFC527]">12</p>
         </div>
         <p class="titolo-decrizione">(Classico ragù alla bolognese a lenta cottura)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Orecchiette e Cime</h2>
-            <p class="text-[#FFC527]">11€</p>
+            <p class="text-[#FFC527]">11</p>
         </div>
         <p class="titolo-decrizione">(Orecchiette pugliesi, cime di rapa, acciughe)</p>
     </div>
@@ -461,112 +458,112 @@
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Tiramisù</h2>
-            <p class="text-[#FFC527]">6€</p>
+            <p class="text-[#FFC527]">6</p>
         </div>
         <p class="titolo-decrizione">(Mascarpone, caffè, savoiardi)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Panna Cotta</h2>
-            <p class="text-[#FFC527]">5€</p>
+            <p class="text-[#FFC527]">5</p>
         </div>
         <p class="titolo-decrizione">(Frutti di bosco o caramello)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Soufflé Caldo</h2>
-            <p class="text-[#FFC527]">7€</p>
+            <p class="text-[#FFC527]">7</p>
         </div>
         <p class="titolo-decrizione">(Cuore fondente al cioccolato nero)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Cheesecake</h2>
-            <p class="text-[#FFC527]">6.5€</p>
+            <p class="text-[#FFC527]">6.5</p>
         </div>
         <p class="titolo-decrizione">(Salsa alle fragole fresche e biscotto)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Cantucci e Vin Santo</h2>
-            <p class="text-[#FFC527]">8€</p>
+            <p class="text-[#FFC527]">8</p>
         </div>
         <p class="titolo-decrizione">(Biscotti alle mandorle e vino dolce)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Sorbetto al Limone</h2>
-            <p class="text-[#FFC527]">4.5€</p>
+            <p class="text-[#FFC527]">4.5</p>
         </div>
         <p class="titolo-decrizione">(Limoni di Sicilia, fresco e digestivo)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Profiteroles</h2>
-            <p class="text-[#FFC527]">6€</p>
+            <p class="text-[#FFC527]">6</p>
         </div>
         <p class="titolo-decrizione">(Bignè ripieni di crema e glassa al cioccolato)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Cannolo Siciliano</h2>
-            <p class="text-[#FFC527]">5.5€</p>
+            <p class="text-[#FFC527]">5.5</p>
         </div>
         <p class="titolo-decrizione">(Cialda croccante, ricotta di pecora, canditi)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Mousse al Pistacchio</h2>
-            <p class="text-[#FFC527]">7€</p>
+            <p class="text-[#FFC527]">7</p>
         </div>
         <p class="titolo-decrizione">(Mousse leggera con granella di pistacchio di Bronte)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Pastiera Napoletana</h2>
-            <p class="text-[#FFC527]">6.5€</p>
+            <p class="text-[#FFC527]">6.5</p>
         </div>
         <p class="titolo-decrizione">(Grano cotto, ricotta, fiori d'arancio)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Affogato al Caffè</h2>
-            <p class="text-[#FFC527]">6€</p>
+            <p class="text-[#FFC527]">6</p>
         </div>
         <p class="titolo-decrizione">(Gelato alla crema affogato nel caffè espresso)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Babà al Rum</h2>
-            <p class="text-[#FFC527]">6.5€</p>
+            <p class="text-[#FFC527]">6.5</p>
         </div>
         <p class="titolo-decrizione">(Classico babà bagnato nel rum invecchiato)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Crema Catalana</h2>
-            <p class="text-[#FFC527]">6€</p>
+            <p class="text-[#FFC527]">6</p>
         </div>
         <p class="titolo-decrizione">(Crema vellutata con zucchero caramellato)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Zuppa Inglese</h2>
-            <p class="text-[#FFC527]">7€</p>
+            <p class="text-[#FFC527]">7</p>
         </div>
         <p class="titolo-decrizione">(Strati di crema, cioccolato e alchermes)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Tagliata di Frutta</h2>
-            <p class="text-[#FFC527]">5.5€</p>
+            <p class="text-[#FFC527]">5.5</p>
         </div>
         <p class="titolo-decrizione">(Frutta fresca di stagione selezionata)</p>
     </div>
     <div class="elementoMenu w-[350px] border-1 p-4">
         <div class="flex flex-row gap-8 justify-between items-center">
             <h2 class="titolo text-2xl">Sacher Cake</h2>
-            <p class="text-[#FFC527]">7.5€</p>
+            <p class="text-[#FFC527]">7.5</p>
         </div>
         <p class="titolo-decrizione">(Torta al cioccolato, albicocca, glassa fondente)</p>
     </div>
@@ -614,7 +611,7 @@
             <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
         </li>
         <li>
-            <a href="#" class="hover:underline">Contatti!</a>
+            <a href="#" class="hover:underline">Contatti</a>
         </li>
     </ul>
     </div>
